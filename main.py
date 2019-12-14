@@ -20,7 +20,7 @@ KPC_PORT = 1883
 DCX_INSTANCE_NAME = "dcx"
 EPMX_INSTANCE_NAME = "epmx"
 CEX_INSTANCE_NAME = "cex"
-so_file = "/home/clara/Documents/Master/RPI_II/kaaProject/code/my_function.so"
+so_file = "./my_function.so"
 HEALTH_CHECK_COMMAND_TYPE = "HEALTH_CHECK"
 
 def load_json(path):
